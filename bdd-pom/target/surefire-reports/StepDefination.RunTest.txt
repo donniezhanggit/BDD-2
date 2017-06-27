@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: StepDefination.RunTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 5, Time elapsed: 1.578 sec <<< FAILURE!
+Given I navigate to flipkart site(Scenario: I login with valid credential)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at Automation.pom.Home.clickOnLoginTxt(Home.java:32)
+	at StepDefination.HomeStep.goToSite(HomeStep.java:20)
+	at ?.Given I navigate to flipkart site(Login.feature:5)
+
+Scenario: I login with valid credential  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at Automation.pom.Home.clickOnLoginTxt(Home.java:32)
+	at StepDefination.HomeStep.goToSite(HomeStep.java:20)
+	at ?.Given I navigate to flipkart site(Login.feature:5)
+
